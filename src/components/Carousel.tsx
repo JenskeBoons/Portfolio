@@ -10,7 +10,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 //make swiper
-const Carousel = ({ images }) => {
+const Carousel = ({ images }: { images: string[] }) => {
   return (
     <Swiper
     modules={[Autoplay, Navigation, Pagination]}
