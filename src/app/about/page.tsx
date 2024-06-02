@@ -174,23 +174,23 @@ const About: NextPage = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="softskills padd-15">
-                  <div className="row">
-                    <div className="softskill-item padd-15">
-                      <h5>Feedback krijgen</h5>
-                      <p>Ik ben altijd open voor te leren van feedback</p>
-                    </div>
-                    <div className="softskill-item padd-15">
-                      <h5>Teamwerk</h5>
-                      <p>Ik werk heel goed samen met andere collega's om tot een mooi en functioneel eindproduct te komen.</p>
-                    </div>
-                    <div className="softskill-item padd-15">
-                      <h5>Doorzettingsvermogen</h5>
-                      <p>Ik geef niet op voordat ik tevreden ben met het resultaat.</p>
-                    </div>
+                <div className="row">
+                  <div className="softskill-item padd-15">
+                    <h5>Feedback krijgen</h5>
+                    <p>Ik ben altijd open voor te leren van feedback</p>
+                  </div>
+                  <div className="softskill-item padd-15">
+                    <h5>Teamwerk</h5>
+                    <p>Ik werk heel goed samen met andere collega's om tot een mooi en functioneel eindproduct te komen.</p>
+                  </div>
+                  <div className="softskill-item padd-15">
+                    <h5>Doorzettingsvermogen</h5>
+                    <p>Ik geef niet op voordat ik tevreden ben met het resultaat.</p>
                   </div>
                 </div>
+              </div>
               <div className="row">
                 <div className="education padd-15">
                   <h3 className="title">Education</h3>
@@ -282,9 +282,8 @@ const About: NextPage = () => {
                           <h4 className="timeline-title">Stage Pensionarchitects</h4>
                           <p className="timeline-text">
                             Verbetering van Data-Export Functionaliteit voor Grootschalige Grids.
-                            <p>Vind meer info op de <a href=""></a>Stage pagina.</p>
+                            <span>Vind meer info op de <a href="">Stage pagina.</a></span>
                           </p>
-
                         </div>
                         <div className="timeline-item">
                           <div className="circle-dot" />
