@@ -183,7 +183,7 @@ const About: NextPage = () => {
                   </div>
                   <div className="softskill-item padd-15">
                     <h5>Teamwerk</h5>
-                    <p>Ik werk heel goed samen met andere collega's om tot een mooi en functioneel eindproduct te komen.</p>
+                    <p>Ik werk heel goed samen met andere collegs om tot een mooi en functioneel eindproduct te komen.</p>
                   </div>
                   <div className="softskill-item padd-15">
                     <h5>Doorzettingsvermogen</h5>
@@ -206,7 +206,7 @@ const About: NextPage = () => {
                             Toegepaste Informatica
                           </h4>
                           <p className="timeline-text">
-                            Thomas More Kempen - bachelor's diploma
+                            Thomas More Kempen - bachelors diploma
                           </p>
                         </div>
                         <div className="timeline-item">
