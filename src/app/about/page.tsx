@@ -290,7 +290,7 @@ const About: NextPage = () => {
                           <h6 className="timeline-date">
                             <i className="fa fa-calendar" /> 2021
                           </h6>
-                          <h4 className="timeline-title">Boons Sound & Light (BSL) Website</h4>
+                          <h4 className="timeline-title">Boons Sound &amp; Light (BSL) Website</h4>
                           <p className="timeline-text">
                             HTML en bootstrap website voor BSL
                           </p>
@@ -302,12 +302,14 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Kerstdecoverlichting</h4>
                           <p className="timeline-text">
-                            <li>
-                              Plaatsen van kerstverlichting
-                            </li>
-                            <li>
-                              Onderhoud van elektronica
-                            </li>
+                            <div>
+                              <li>
+                                Plaatsen van kerstverlichting
+                              </li>
+                              <li>
+                                Onderhoud van elektronica
+                              </li>
+                            </div>
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -319,12 +321,14 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Fun Fair</h4>
                           <p className="timeline-text">
-                            <li>
-                              Plaatsen van evenement tenten
-                            </li>
-                            <li>
-                              Tafels en stoelen plaatsen
-                            </li>
+                            <div>
+                              <li>
+                                Plaatsen van evenement tenten
+                              </li>
+                              <li>
+                                Tafels en stoelen plaatsen
+                              </li>
+                            </div>
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -336,15 +340,17 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Boons Sound & Light (BSL)</h4>
                           <p className="timeline-text">
-                            <li>
-                              Plaatsen van licht en geluid
-                            </li>
-                            <li>
-                              Light design voor evenementen
-                            </li>
-                            <li>
-                              Onderhoud van elektronica
-                            </li>
+                            <div>
+                              <li>
+                                Plaatsen van licht en geluid
+                              </li>
+                              <li>
+                                Light design voor evenementen
+                              </li>
+                              <li>
+                                Onderhoud van elektronica
+                              </li>
+                            </div>
                           </p>
                         </div>
                         {/* Timeline Item end */}
