@@ -27,12 +27,12 @@ const Portfolio: NextPage = () => {
                 Web Design
               </button>
               <button type="button" data-filter="wordpress">
-              <Link
-              href="/services"
-              className={`${pathUrl == "/services" && "active"}`}
-            >
-              <i className="fa fa-list" /> Services
-            </Link>
+                <Link
+                  href="/services"
+                  className={`${pathUrl == "/services" && "active"}`}
+                >
+                  <i className="fa fa-list" /> Services
+                </Link>
               </button>
             </div>
           </div>
@@ -41,12 +41,17 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/1.jpg" alt="portfolio" />
+                  <img src="/imgs/Four/1.PNG" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Web Design</h4>
+                  <h4> Project 4.0</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                  <Link
+                      href="/FourPointO"
+                      className={`${pathUrl == "/FourPointO" && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -56,18 +61,17 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/2.jpg" alt="portfolio" />
+                  <img src="/imgs/portfolio/ddp2.webp" alt="PHP" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Web Design</h4>
+                  <h4>Project PHP</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
                     <Link
-              href="/Project"
-              className={`${pathUrl == "/services" && "active"}`}
-            >
-              <i className="fa fa-list" /> Services
-            </Link>
+                      href="/Project"
+                      className={`${pathUrl == "/Project" && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -77,12 +81,17 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/3.jpg" alt="portfolio" />
+                  <img src="/imgs/portfolio/mobile.PNG" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Web Design</h4>
+                  <h4>Augmented Reality and Mobile App Development</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                  <Link
+                      href="/Mobile"
+                      className={`${pathUrl == "/Mobile" && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -95,12 +104,17 @@ const Portfolio: NextPage = () => {
             >
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/4.jpg" alt="portfolio" />
+                  <img src="/imgs/RequirementsAnalysis/1.webp" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Banner Design</h4>
+                  <h4>Requirements Analysis</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                  <Link
+                      href="/RequirementsAnalysis "
+                      className={`${pathUrl == "/RequirementsAnalysis " && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -113,9 +127,14 @@ const Portfolio: NextPage = () => {
                   <img src="/imgs/portfolio/5.jpg" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Wordpress</h4>
+                  <h4>Web Portfolio</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                  <Link
+                      href="/WebPortfolio "
+                      className={`${pathUrl == "/WebPortfolio " && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -125,12 +144,17 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/6.jpg" alt="portfolio" />
+                  <img src="/imgs/Angular/1.jpeg" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
-                  <h4>Web Design</h4>
+                  <h4>Angular</h4>
                   <div className="icon">
-                    <i className="fa fa-search" />
+                  <Link
+                      href="/Angular "
+                      className={`${pathUrl == "/Angular " && "active"}`}
+                    >
+                      <i className="fa fa-search" />
+                    </Link>
                   </div>
                 </div>
               </div>

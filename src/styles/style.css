@@ -370,8 +370,8 @@ select {
   text-align: center;
 }
 .home .intro img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   display: inline-block;
   border: 8px solid #ffffff;
@@ -1163,6 +1163,12 @@ select {
 .project .section {
   background-color: #fff;
 }
+.project .project-details {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+}
 
 /* Dark mode background color for section */
 [data-theme='dark'] .project .section {
@@ -1194,18 +1200,34 @@ select {
   margin: 0 auto;
   padding: 20px;
 }
+.video-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container video {
+
+  max-height: 600px; /* Set the maximum height */
+  border: 2px solid #ddd; /* Add a border */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
+}
+
+.video-container video:hover {
+  transform: scale(1.05); /* Slightly enlarge the video on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+}
 
 /* Adjust project explanation width and margin */
 .project-explanation {
   width: 100%;
   margin-top: 20px;
-}
-
-/* Styles for project details */
-.project-details {
-  background-color: #f9f9f9;
-  padding: 40px;
-  border-radius: 8px;
 }
 
 /* Dark mode styles for project details */
