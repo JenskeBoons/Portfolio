@@ -10,8 +10,8 @@ export default async function Home() {
               src="/imgs/me.jpg"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>Jens Boons</h1>
+            <p>Developer</p>
             <div className="social-links">
             <a href="https://www.linkedin.com/in/jens-boons/" target="_blank">
                 <i className="fa fa-linkedin" />

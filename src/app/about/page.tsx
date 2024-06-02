@@ -179,7 +179,7 @@ const About: NextPage = () => {
                 <div className="row">
                   <div className="softskill-item padd-15">
                     <h5>Feedback krijgen</h5>
-                    <p>Ik ben altijd open voor te leren van feedback</p>
+                    <p>Ik ben altijd open voor te leren van feedback.</p>
                   </div>
                   <div className="softskill-item padd-15">
                     <h5>Teamwerk</h5>
@@ -193,7 +193,7 @@ const About: NextPage = () => {
               </div>
               <div className="row">
                 <div className="education padd-15">
-                  <h3 className="title">Education</h3>
+                  <h3 className="title">Onderwijs</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -206,7 +206,7 @@ const About: NextPage = () => {
                             Toegepaste Informatica
                           </h4>
                           <p className="timeline-text">
-                            Thomas More Kempen - bachelors diploma
+                            Thomas More Kempen - Bachelors diploma
                           </p>
                         </div>
                         <div className="timeline-item">
@@ -261,7 +261,7 @@ const About: NextPage = () => {
                             Elektriciteit Elektronica
                           </h4>
                           <p className="timeline-text">
-                            Damiaan Instituut Aarschot - Midelbaar diploma
+                            Damiaan Instituut Aarschot - Middelbaar diploma
                           </p>
                         </div>
                       </div>
@@ -269,7 +269,7 @@ const About: NextPage = () => {
                   </div>
                 </div>
                 <div className="experience padd-15">
-                  <h3 className="title">Experience</h3>
+                  <h3 className="title">Ervaring</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
