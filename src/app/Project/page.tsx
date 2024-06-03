@@ -46,7 +46,7 @@ const Project: NextPage = () => {
                 </p>
                 <h3>Benadering</h3>
                 <p>
-                  Als <strong>documentleider</strong> nam ik de verantwoordelijkheid voor het beheren van alle benodigde documenten en het schrijven van wekelijkse <strong>vergaderrapporten</strong>. Daarnaast was ik verantwoordelijk voor de <strong>webhosting</strong> en creëerde ik pagina's voor het beheer van bestanden en gebruikersaccounts.
+                  Als <strong>documentleider</strong> nam ik de verantwoordelijkheid voor het beheren van alle benodigde documenten en het schrijven van wekelijkse <strong>vergaderrapporten</strong>. Daarnaast was ik verantwoordelijk voor de <strong>webhosting</strong> en creëerde ik pagina&#39s voor het beheer van bestanden en gebruikersaccounts.
                 </p>
                 <h3>Eindresultaat</h3>
                 <p>
