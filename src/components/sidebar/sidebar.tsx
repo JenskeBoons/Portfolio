@@ -41,7 +41,7 @@ const Sidebar = () => {
               href="/about"
               className={`${pathUrl == "/about" && "active"}`}
             >
-              <i className="fa fa-user" /> About
+              <i className="fa fa-user" /> Over mij
             </Link>
           </li>
           {/* <li onClick={handleClose}>
@@ -54,7 +54,7 @@ const Sidebar = () => {
           </li> */}
           <li onClick={handleClose}>
             <Link href="/Internship" className={`${pathUrl == "/Internship" && "active"}`}>
-              <i className="fa fa-clipboard" /> Stage
+              <i className="fa fa-laptop" /> Stage
             </Link>
           </li>
           <li onClick={handleClose}>

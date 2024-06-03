@@ -1,10 +1,10 @@
 .aside .logo a::before{
-    border-top: 4px solid #995fdb;
-    border-left: 4px solid #995fdb;
+    border-top: 4px solid #7030d6;
+    border-left: 4px solid #7030d6;
 }    
 .aside .logo a::after{
-    border-right: 4px solid #995fdb;
-    border-bottom: 4px solid #995fdb;
+    border-right: 4px solid #7030d6;
+    border-bottom: 4px solid #7030d6;
 } 
 .contact .contact-info-item .icon .fa,
 .blog .blog-item-inner .blog-info .blog-tags a,
@@ -20,7 +20,7 @@ body.dark .aside .nav li a:hover,
 body.dark .aside .nav li a.active,
 .aside .nav li a:hover,
 .aside .nav li a.active{
-    color: #995fdb;
+    color: #7030d6;
 }
 .blog .blog-item-inner .blog-img .blog-date,
 .service .service-item .service-item-inner:hover .icon,
@@ -34,11 +34,11 @@ body.dark .aside .nav li a.active,
 .aside .nav-toggler span::before,
 .aside .nav-toggler span::after,
 .home .intro .social-links a{
-    background-color: #995fdb;
+    background-color: #7030d6;
 }
 
 .portfolio .portfolio-filter button.active{
-    border-color: #995fdb;
+    border-color: #7030d6;
 }
 .project-explanation h3 {
      /* Set text color for h3 */
@@ -53,7 +53,21 @@ body.dark .aside .nav li a.active,
     left: 0; /* Align with text */
     width: 100%; /* Set width to full */
     height: 2px; /* Set height for underline */
-    background-color: #995fdb; /* Set theme color */
+    background-color: #7030d6; /* Set theme color */
   }
   
-  
+  .intern-text h3 {
+    /* Set text color for h3 */
+   position: relative; /* Set position to relative */
+   display: inline-block; /* Make it inline-block to fit content width */
+ }
+ 
+ .intern-text h3::after {
+   content: ""; /* Add content to pseudo-element */
+   position: absolute; /* Set position to absolute */
+   bottom: -0px; /* Adjust the distance from text */
+   left: 0; /* Align with text */
+   width: 100%; /* Set width to full */
+   height: 2px; /* Set height for underline */
+   background-color: #7030d6; /* Set theme color */
+ }

@@ -692,6 +692,159 @@ select {
   position: relative;
 }
 
+/* Intern Section 
+============================================================== */
+.intern .intern-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intern .intern-content .intern-text {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.intern .intern-content .intern-docs {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.intern .intern-content .intern-img {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.intern .intern-content .intern-img img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px;
+  border-radius: 10px;
+  
+}
+
+.intern .intern-content .intern-text h3,
+.intern .intern-content .intern-img h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #302e4d;
+}
+
+.intern .intern-content .intern-text h4,
+.intern .intern-content .intern-img h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #302e4d;
+}
+
+.intern .intern-content .intern-text p,
+.intern .intern-content .intern-img p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+}
+.intern .intern-content .intern-docs table {
+  width: 100%;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 25px;
+  color: #302e4d;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.intern .intern-content .intern-docs tr {
+  border-bottom: 1px solid #7030d6; /* Add a line under each row */
+}
+
+.intern .intern-content .intern-docs td {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+  padding-bottom: 5px; 
+  padding-top: 5px; 
+}
+.intern .intern-content .intern-docs .docs-item {
+  font-weight: bold;
+  color: #232238;
+}
+.intern .intern-content .intern-docs .docs-link {
+  font-weight: bold;
+  color:#7030d6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+  .intern .intern-content .intern-text,
+  .intern .intern-content .intern-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin: auto;
+    
+  }
+  .intern .intern-content .intern-img {
+    justify-content: flex-start;
+  }
+}
+
+
+
+.intern .intern-content .personal-info .info-item p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #504e70;
+  margin: 0;
+}
+.intern .intern-content .personal-info .info-item p span {
+  font-weight: 400;
+  color: #504e70;
+  margin-left: 4px;
+  display: inline-block;
+}
+.intern .intern-content .skills {
+  /* background-color: blue; */
+  -ms-flex: 0 0 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin-top: 40px;
+}
+.intern .intern-content .skills .skill-item {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.intern .intern-content .skills .skill-item h5 {
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #302e4d;
+  margin: 0;
+}
+.intern .intern-content .skills .skill-item .progress {
+  background-color: #e3e3e3;
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+/* Adjust project explanation width and margin */
+.intern-explanation {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* Dark mode styles for project details */
+[data-theme='dark'] .intern .intern-details {
+  background-color: #222;
+}
+
+/* Increase font size for project explanation h3 */
+.intern-explanation h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+}
 
 
 /* Service Section 
@@ -1178,6 +1331,7 @@ select {
 /* Default text color for h2 and h3 */
 .project h2,
 .project h3,
+.project h4,
 .project p,
 .project .project-details p,
 .project .project-explanation p {
@@ -1187,6 +1341,7 @@ select {
 /* Dark mode text color for h2 and h3 */
 [data-theme='dark'] .project h2,
 [data-theme='dark'] .project h3,
+[data-theme='dark'] .project h4,
 [data-theme='dark'] .project p,
 [data-theme='dark'] .project .project-details p,
 [data-theme='dark'] .project .project-explanation p {
@@ -1201,16 +1356,11 @@ select {
   padding: 20px;
 }
 .video-container {
-  width: 100%;
-  margin: 0 auto;
-  padding: 20px;
-  padding-right: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ width: 100%;
+
 }
 
-.video-container video {
+.video-container iframe {
 
   max-height: 600px; /* Set the maximum height */
   border: 2px solid #ddd; /* Add a border */
@@ -1219,7 +1369,7 @@ select {
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions */
 }
 
-.video-container video:hover {
+.video-container iframe:hover {
   transform: scale(1.05); /* Slightly enlarge the video on hover */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
 }
@@ -1308,7 +1458,30 @@ select {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+/* Default text color for h2 and h3 */
+.intern h2,
+.intern h3,
+.intern h4,
+.intern p,
+.intern .intern-text p,
+.intern .intern-content .intern-docs .docs-item ,
+.intern .intern-explanation p {
+  color: #393939;
+}
 
+/* Dark mode text color for h2 and h3 */
+[data-theme='dark'] .intern h2,
+[data-theme='dark'] .intern h3,
+[data-theme='dark'] .intern h4,
+[data-theme='dark'] .intern p,
+[data-theme='dark'] .intern .intern-text h2,
+[data-theme='dark'] .intern .intern-text h3,
+[data-theme='dark'] .intern .intern-text h4,
+[data-theme='dark'] .intern .intern-text p,
+[data-theme='dark'] .intern .intern-content .intern-docs .docs-item ,
+[data-theme='dark'] .intern .intern-explanation p {
+  color: #e9e9e9;
+}
 /* ====================================================== */
 /* ---------------  Responsive Css Stared */
 /* ====================================================== */

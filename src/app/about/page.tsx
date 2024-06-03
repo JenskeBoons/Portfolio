@@ -7,7 +7,7 @@ const About: NextPage = () => {
         <div className="container">
           <div className="row">
             <div className="section-title padd-15">
-              <h2>About Me</h2>
+              <h2>Over Mij</h2>
             </div>
           </div>
           <div className="row">
@@ -36,7 +36,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span><a href="https://www.jensboons.be/">jensboons.be</a></span>
+                        Website : <span><a target="_blank" href="https://www.jensboons.be/">jensboons.be</a></span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -219,15 +219,15 @@ const About: NextPage = () => {
                           </h4>
                           <p className="timeline-text">
                             Udemy cursus
-                            <p>
-                              <a
-                                href="/assets/Next.pdf"
-                                target="_target"
-                                className="timeline-btn"
-                              >
-                                Download certificaat
-                              </a>
-                            </p>
+                            <br />
+                            <a
+                              href="/assets/Next.pdf"
+                              target="_target"
+                              className="timeline-btn"
+                            >
+                              Download certificaat
+                            </a>
+
                           </p>
                         </div>
                         <div className="timeline-item">
@@ -241,15 +241,15 @@ const About: NextPage = () => {
                           </h4>
                           <p className="timeline-text">
                             Udemy cursus
-                            <p>
-                              <a
-                                href="/assets/Blender.pdf"
-                                target="_target"
-                                className="timeline-btn"
-                              >
-                                Download certificaat
-                              </a>
-                            </p>
+                            <br />
+                            <a
+                              href="/assets/Blender.pdf"
+                              target="_target"
+                              className="timeline-btn"
+                            >
+                              Download certificaat
+                            </a>
+
                           </p>
                         </div>
                         <div className="timeline-item">
@@ -321,14 +321,14 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Fun Fair</h4>
                           <p className="timeline-text">
-                            <div>
+                            
                               <li>
                                 Plaatsen van evenement tenten
                               </li>
                               <li>
                                 Tafels en stoelen plaatsen
                               </li>
-                            </div>
+                            
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -340,7 +340,7 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Boons Sound & Light (BSL)</h4>
                           <p className="timeline-text">
-                            <div>
+                            
                               <li>
                                 Plaatsen van licht en geluid
                               </li>
@@ -350,7 +350,7 @@ const About: NextPage = () => {
                               <li>
                                 Onderhoud van elektronica
                               </li>
-                            </div>
+                            
                           </p>
                         </div>
                         {/* Timeline Item end */}

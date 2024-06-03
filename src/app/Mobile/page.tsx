@@ -14,10 +14,8 @@ const Mobile: NextPage = () => {
                     <div className="row">
                         <div className="col-12 col-md-6 padd-15">
                             <div className="video-container">
-                                <video controls>
-                                    <source src="/imgs/mobile/mobile.mp4" type="video/mp4" />
-                                    Your browser does not support the video tag.
-                                </video>
+                            <iframe width="50%" height="335" src="https://www.youtube.com/embed/qFsMMtJtNX4" ></iframe>
+
                             </div>
                         </div>
                         <div className="col-12 col-md-6 padd-15">

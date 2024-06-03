@@ -11,40 +11,74 @@ const Internship: NextPage = () => {
   ];
   return (
     <main>
-      <section className="project section" id="project">
+      <section className="intern section" id="intern">
         <div className="container">
           <div className="row">
             <div className="section-title padd-15">
-              <h2>Stage</h2>
+              <h2>Stage Java Developer</h2>
             </div>
-          </div>         
+          </div>
           <div className="row">
-            <div className="col-12 col-md-6 padd-15">
-              <div className="project-explanation">
-                <h3>Opdracht</h3>
-                <p>
-                During our PHP Project course, my teammates Tymo Verhaegen, Mohamed Ajimi, and I worked on a PHP team project for our teacher, Dirk De Peuter. The project was designed to help our school plan small meetings between students and companies. Our team worked together to create a system that would make it easy for students to connect with potential employers.
-                </p>
-                <h3>Benadering</h3>
-                <p>
-                As part of our project, I was appointed as the document lead, which meant that I was in charge of all the documents that needed to be filled out, as well as writing weekly stand-up meeting reports. I also took charge of the web hosting and created the pages that manage the files in the system and allow users to upload them. In addition, I designed the pages that manage user accounts and created the functionalities to make new and edit existing accounts.
-                </p>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 padd-15">
-              <div className="project-explanation">
-                <h3>Eindresultaat</h3>
-                <p>
-                Working on this project helped me develop several key skills. Firstly, it taught me how to work effectively as part of a team. I learned to communicate effectively with my teammates, sharing ideas and solutions, and providing feedback when necessary. Secondly, I gained experience in project management, which involved managing the various aspects of the project, such as documentation, hosting, and user management. This allowed me to develop a comprehensive understanding of the project and ensured that we were able to complete it on time and within budget.
-                </p>
-                <h3>Mijn inbreng</h3>
-                <p>
-                Overall, this project was a great learning experience for me. I gained valuable experience in project management, web development, and teamwork. It was a learning experience to work with my teammates, Tymo Verhaegen and Mohamed Ajimi, and our teacher, Dirk De Peuter. I am proud of the work I did and hope that the school might actually use our design.
-                 </p>
-                <h3>Wat ik heb geleerd</h3>
-                <p>
-                This project taught me the importance of effective communication within a team, the significance of project management skills in meeting deadlines and staying within budget, and the technical skills required for web development and hosting. Additionally, it provided valuable experience in collaborating with teammates and handling responsibilities within a group project.
-                 </p>
+            <div className="col-6 col-md-6 padd-15">
+              <div className="intern-content">
+                <div className="intern-text">
+                  <h3>Opdracht:
+                  </h3>
+                  <h4> Verbetering van Data-Export Functionaliteit voor Grootschalige Grids
+                    Realisatie</h4>
+                  <p>
+                  Tijdens mijn stage bij <strong> Pensionarchitects</strong> heb ik gewerkt aan een project om de <strong> exportfunctionaliteit van grote datasets uit het interne beheersysteem te verbeteren</strong>. Dit systeem gebruikt "grids" - grote tabellen met informatie, maar veel klanten geven de voorkeur aan Excel vanwege de flexibiliteit. De huidige exporttoepassing kon grote datasets echter niet efficiënt verwerken, wat leidde tot crashes en inefficiënte workflows. Dit was problematisch voor klanten die regelmatig <strong>grote hoeveelheden </strong> data wilden exporteren voor verdere analyse in Excel.
+                  </p> <br />
+                  <p>
+                  <strong>Mijn taak </strong> was om deze problemen te <strong>onderzoeken en een robuuste oplossing te ontwikkelen </strong> voor het exporteren van grote grids naar Excel. Het project bestond uit <strong>drie fasen</strong>. In de eerste fase analyseerde ik  de beperkingen van de huidige exporttoepassing, waarbij ik de bestaande code doorlichtte om de oorzaken van crashes te <strong>begrijpen</strong>. In de tweede fase richtte ik me op het <strong> identificeren van de belangrijkste oorzaken</strong> van de crashes door vragen te stellen zoals "Waarom verbruikt de huidige toepassing zoveel rekenkracht bij grote datasets?" en "Welke specifieke behoeften hebben eindgebruikers bij het exporteren naar Excel?".
+                  </p> <br />
+                  <p>
+                  De laatste fase bestond uit het <strong> ontwikkelen en testen</strong> van oplossingen om de exportfunctionaliteit te verbeteren. Ik implementeerde technologische verbeteringen en <strong>optimalisaties </strong> die de toepassing stabieler en efficiënter maakten. De effectiviteit van deze oplossingen werd gemeten door tests en gebruikersfeedback.
+                  </p> <br />
+                  <p>
+                  Hoewel het project ambitieuze doelen had, vereist de complexiteit van het exportprobleem <strong>voortdurende inspanning</strong>. Deze studie biedt daarom praktische aanbevelingen voor toekomstige verbeteringen, zodat Pensionarchitects de exportfunctionaliteit kan blijven optimaliseren.
+                  </p> <br />
+                  
+                </div>
+                <div className="intern-img">
+                  <img src="/imgs/PenArchLogo.PNG" alt="" />
+                  <img src="/imgs/PenarchBanner.jpg" alt="" />
+                </div>  
+                   
+                <div className="intern-docs">
+                  <table>
+                    <tr>
+                      <td className="docs-item">Project plan:</td>
+                      <td><a
+                        href="/assets/Jens_Boons_CV.pdf"
+                        target="_target"
+                        className="docs-link"
+                      >
+                        Project plan
+                      </a></td>
+                    </tr>
+                    <tr>
+                      <td className="docs-item">Realizatie document:</td>
+                      <td><a
+                        href="/assets/Jens_Boons_CV.pdf"
+                        target="_target"
+                        className="docs-link"
+                      >
+                        Realizatie
+                      </a></td>
+                    </tr>
+                    <tr>
+                      <td className="docs-item">Reflectie document:</td>
+                      <td className="docs-link"><a
+                        href="/assets/Jens_Boons_CV.pdf"
+                        target="_target"
+                        
+                      >
+                        Reflectie
+                      </a></td>
+                    </tr>
+                  </table>
+                </div>         
               </div>
             </div>
           </div>
