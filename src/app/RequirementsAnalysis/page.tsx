@@ -5,8 +5,11 @@ const RequirementsAnalysis : NextPage = () => {
   // Define images for this page
   const images = [
 
-    "/imgs/Four/2.PNG",
-    "/imgs/Four/3.PNG",
+    "/imgs/RequirementsAnalysis/1.webp",
+    "/imgs/RequirementsAnalysis/lst5.webp",
+    "/imgs/RequirementsAnalysis/lst4.webp",
+    "/imgs/RequirementsAnalysis/lst3.webp",
+    
 
   ];
   return (
@@ -28,9 +31,9 @@ const RequirementsAnalysis : NextPage = () => {
               <div className="project-details">
                 <h3>Requirements Analysis </h3>
                 <p>
-                  <strong>Category:</strong> Full stack Next Js<br />
-                  <strong>Project date:</strong> 1ste semester 3de year <br />
-                  <strong>Prototyp:</strong><a target="_blank" href="https://www.figma.com/design/ejXDR3WYgAzO7DVMSlOgai/Project4.0(VoltSwap)?node-id=0-1"> VoltSwap</a>
+                  <strong>Category:</strong>Requirements Analysis <br />
+                  <strong>Project datum:</strong> 1ste semester 2de jaar <br />
+                  <strong>Protype:</strong> Axure <br />
                 </p>
               </div>
             </div>
@@ -40,27 +43,20 @@ const RequirementsAnalysis : NextPage = () => {
               <div className="project-explanation">
                 <h3>Opdracht</h3>
                 <p>
-                During our PHP Project course, my teammates Tymo Verhaegen, Mohamed Ajimi, and I worked on a PHP team project for our teacher, Dirk De Peuter. The project was designed to help our school plan small meetings between students and companies. Our team worked together to create a system that would make it easy for students to connect with potential employers.
+                Tijdens mijn studie Requirements Analysis aan Thomas More Geel kregen we de opdracht om een <strong>groepsproject</strong> uit te voeren waarbij we <strong>de requirements analysis</strong> en een prototype-applicatie moesten ontwikkelen. Samen met mijn medestudenten: Joppe Kerkhofs&#44; Jorn Van Dijck&#44; Jules Torfs&#44; Jari Vandyck en Jordi Peashuijse&#44; werkten we aan het identificeren van <strong>gebruikersvereisten</strong> en het ontwerpen van een oplossing die aan deze behoeften voldeed.
                 </p>
                 <h3>Benadering</h3>
                 <p>
-                As part of our project, I was appointed as the document lead, which meant that I was in charge of all the documents that needed to be filled out, as well as writing weekly stand-up meeting reports. I also took charge of the web hosting and created the pages that manage the files in the system and allow users to upload them. In addition, I designed the pages that manage user accounts and created the functionalities to make new and edit existing accounts.
+                Ons team <strong>werkte nauw samen</strong> om gebruikersvereisten te analyseren en een prototype te ontwerpen dat deze behoeften zou adresseren. We maakten gebruik van verschillende tools en technieken om <strong>feedback van potentiële gebruikers te verzamelen</strong> en deze te integreren in ons ontwerp. Mijn specifieke rol binnen het project was het ontwerpen van het <strong>bestandsmanagementsysteem</strong>.
                 </p>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 padd-15">
-              <div className="project-explanation">
                 <h3>Eindresultaat</h3>
                 <p>
-                Working on this project helped me develop several key skills. Firstly, it taught me how to work effectively as part of a team. I learned to communicate effectively with my teammates, sharing ideas and solutions, and providing feedback when necessary. Secondly, I gained experience in project management, which involved managing the various aspects of the project, such as documentation, hosting, and user management. This allowed me to develop a comprehensive understanding of the project and ensured that we were able to complete it on time and within budget.
+                Het resultaat van ons project was een goed <strong>doordacht prototype</strong> dat was ontworpen om een reëel probleem aan te pakken dat werd geconfronteerd door de beoogde gebruikers. Hoewel er geen echte code werd geschreven&#44; hebben we een gedetailleerd prototype kunnen presenteren dat de <strong>functionaliteit</strong> van de beoogde applicatie demonstreerde en de verwachte gebruikerservaring illustreerde.
                 </p>
-                <h3>Mijn inbreng</h3>
-                <p>
-                Overall, this project was a great learning experience for me. I gained valuable experience in project management, web development, and teamwork. It was a learning experience to work with my teammates, Tymo Verhaegen and Mohamed Ajimi, and our teacher, Dirk De Peuter. I am proud of the work I did and hope that the school might actually use our design.
-                 </p>
+                
                 <h3>Wat ik heb geleerd</h3>
                 <p>
-                This project taught me the importance of effective communication within a team, the significance of project management skills in meeting deadlines and staying within budget, and the technical skills required for web development and hosting. Additionally, it provided valuable experience in collaborating with teammates and handling responsibilities within a group project.
+                Dit project heeft mijn begrip van <strong>Requirements Analysis</strong> verdiept en heeft mij geleerd hoe belangrijk het is om nauwkeurig te <strong>luisteren</strong> naar de behoeften van gebruikers en deze te vertalen naar <strong>functionele vereisten</strong> voor een applicatie. Het heeft ook mijn projectmanagementvaardigheden verder ontwikkeld door het belang van een georganiseerde en <strong>gestructureerde</strong> aanpak te benadrukken. Daarnaast heb ik geleerd hoe effectief samen te werken in een teamomgeving en hoe feedback van gebruikers kan worden geïntegreerd om een betere eindoplossing te bereiken.
                  </p>
               </div>
             </div>

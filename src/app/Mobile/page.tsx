@@ -14,7 +14,7 @@ const Mobile: NextPage = () => {
                     <div className="row">
                         <div className="col-12 col-md-6 padd-15">
                             <div className="video-container">
-                            <iframe width="50%" height="335" src="https://www.youtube.com/embed/qFsMMtJtNX4" ></iframe>
+                                <iframe width="50%" height="335" src="https://www.youtube.com/embed/qFsMMtJtNX4" ></iframe>
 
                             </div>
                         </div>
@@ -24,7 +24,7 @@ const Mobile: NextPage = () => {
                                 <p>
                                     <strong>Category:</strong> Full stack Flutter<br />
                                     <strong>Project date:</strong> 1ste semester 3de jaar<br />
-                                    <a target="_blank" href="https://github.com/itfactory-tm/MobDev-23-11"><strong>Repo:</strong> <i className="fa fa-github" /></a>
+                                    <strong>Repo:</strong> <a target="_blank" href="https://github.com/itfactory-tm/MobDev-23-11"><i className="fa fa-github" /></a>
                                 </p>
                             </div>
                         </div>
@@ -32,32 +32,29 @@ const Mobile: NextPage = () => {
                     <div className="row">
                         <div className="col-12 col-md-6 padd-15">
                             <div className="project-explanation">
-                                <h3>Assignment</h3>
+                                <h3>Opdracht</h3>
                                 <p>
-                                    During our PHP Project course, my teammates Tymo Verhaegen, Mohamed Ajimi, and I worked on a PHP team project for our teacher, Dirk De Peuter. The project was designed to help our school plan small meetings between students and companies. Our team worked together to create a system that would make it easy for students to connect with potential employers.
+                                In samenwerking met Tymo Verhaegen heb ik gewerkt aan een <strong>Augmented Reality </strong>app. Het doel van deze app was om een <strong>mobiele Pokédex</strong> te creëren die gebruikmaakte van een <strong>API</strong> de pokeapi weliswaar. Hiermee konden gebruikers alle eerste generatie Pokémon en hun statistieken bekijken evenals alle items uit de Pokémon-wereld. De app werd ontwikkeld in <strong>Flutter</strong> en omvatte zowel een informatief gedeelte als een AR-functionaliteit.
                                 </p>
-                                <h3>Approach</h3>
+                                <h3>Benadering</h3>
                                 <p>
-                                    As part of our project, I was appointed as the document lead, which meant that I was in charge of all the documents that needed to be filled out, as well as writing weekly stand-up meeting reports. I also took charge of the web hosting and created the pages that manage the files in the system and allow users to upload them. In addition, I designed the pages that manage user accounts and created the functionalities to make new and edit existing accounts.
+                                Tijdens de ontwikkeling van de app was ik verantwoordelijk voor de <strong>backend en het AR-gedeelte</strong>&#44; terwijl Tymo zich vooral richtte op de frontend. We <strong>werkten nauw samen</strong> en hielpen elkaar waar nodig om een naadloze integratie van beide aspecten te garanderen. Het informatieve deel van de app werd gebouwd met behulp van de pokeapi&#44; terwijl voor de AR-functionaliteit gebruik werd gemaakt van de <strong>wikitude SDK</strong>.
                                 </p>
-                            </div>
-                        </div>
-                        <div className="col-12 col-md-6 padd-15">
-                            <div className="project-explanation">
-                                <h3>Final Result</h3>
+                                <h3>Eindresultaat</h3>
                                 <p>
-                                    Working on this project helped me develop several key skills. Firstly, it taught me how to work effectively as part of a team. I learned to communicate effectively with my teammates, sharing ideas and solutions, and providing feedback when necessary. Secondly, I gained experience in project management, which involved managing the various aspects of the project, such as documentation, hosting, and user management. This allowed me to develop a comprehensive understanding of the project and ensured that we were able to complete it on time and within budget.
+                                Het eindresultaat was een <strong>veelzijdige app</strong> die zowel informatief als interactief was. Gebruikers konden gemakkelijk door de eerste generatie Pokémon bladeren en hun statistieken bekijken&#44; evenals informatie over verschillende items. Het AR-gedeelte voegde een <strong>extra dimensie</strong> toe aan de ervaring door gebruikers in staat te stellen Pokémon in de echte wereld te zien via hun smartphonecamera. Wanneer een Pokémon werd &#39;gevangen&#39; via de AR-functionaliteit&#44; werd deze toegevoegd aan de Pokédex en gemarkeerd als &#39;gevangen&#39;. De combinatie van <strong>informatieve en interactieve</strong> elementen maakte de app tot een boeiende en vermakelijke ervaring voor Pokémon-fans.
                                 </p>
-                                <h3>My Input</h3>
+                                <h3>Mijn inbreng</h3>
                                 <p>
-                                    Overall, this project was a great learning experience for me. I gained valuable experience in project management, web development, and teamwork. It was a learning experience to work with my teammates, Tymo Verhaegen and Mohamed Ajimi, and our teacher, Dirk De Peuter. I am proud of the work I did and hope that the school might actually use our design.
+                                Mijn rol in het project omvatte de ontwikkeling van de <strong>backend en het AR-gedeelte</strong> van de app. Dit betekende het opzetten van de <strong>API-integratie</strong> met pokeapi voor het ophalen van Pokémon- en itemgegevens&#44; en het integreren van de wikitude SDK voor de <strong>AR-functionaliteit</strong>. Ik was verantwoordelijk voor het creëren van een stabiele en efficiënte backend-infrastructuur&#44; evenals het implementeren van de AR-ervaring die naadloos werkte binnen de app.
                                 </p>
-                                <h3>What I Learned</h3>
+                                <h3>Wat ik heb geleerd</h3>
                                 <p>
-                                    This project taught me the importance of effective communication within a team, the significance of project management skills in meeting deadlines and staying within budget, and the technical skills required for web development and hosting. Additionally, it provided valuable experience in collaborating with teammates and handling responsibilities within a group project.
+                                Tijdens het werken aan dit project heb ik waardevolle ervaring opgedaan in zowel backend-ontwikkeling als <strong>Augmented Reality</strong>. Ik heb mijn kennis van API-integratie en <strong>flutter</strong> verder ontwikkeld door de implementatie van de pokeapi en het opzetten van een betrouwbare backend-infrastructuur. Daarnaast heb ik veel geleerd over het gebruik van AR-technologieën en hoe deze kunnen worden geïmplementeerd in mobiele apps. Het <strong>samenwerken</strong> met Tymo en het delen van kennis en expertise heeft mijn begrip van softwareontwikkeling verder verdiept en mijn vaardigheden als ontwikkelaar versterkt.
                                 </p>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>

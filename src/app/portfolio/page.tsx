@@ -17,7 +17,7 @@ const Portfolio: NextPage = () => {
           </div>
           <div className="row">
             <div className="portfolio-filter padd-15">
-              <button type="button" className="active" data-filter="all">
+              {/* <button type="button" className="active" data-filter="all">
                 All
               </button>
               <button type="button" data-filter="graphics-design">
@@ -33,7 +33,7 @@ const Portfolio: NextPage = () => {
                 >
                   <i className="fa fa-list" /> Services
                 </Link>
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="row">
@@ -61,7 +61,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="web-design">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/ddp2.webp" alt="PHP" />
+                  <img src="/imgs/php/ddp2.webp" alt="PHP" />
                 </div>
                 <div className="portfolio-info">
                   <h4>Project PHP</h4>

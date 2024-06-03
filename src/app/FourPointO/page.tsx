@@ -21,7 +21,7 @@ const FourPointO: NextPage = () => {
           <div className="row">
             <div className="col-12 col-md-6 padd-15">
               <div className="carousel-container">
-              <Carousel images={images} /> {/* Assuming you've imported and implemented the Carousel component */}
+                <Carousel images={images} /> {/* Assuming you've imported and implemented the Carousel component */}
               </div>
             </div>
             <div className="col-12 col-md-6 padd-15">
@@ -29,7 +29,7 @@ const FourPointO: NextPage = () => {
                 <h3> Project 4.0 - VoltSwap</h3>
                 <p>
                   <strong>Category:</strong> Full stack Next Js<br />
-                  <strong>Project date:</strong> 1ste semester 3de year <br />
+                  <strong>Project datum:</strong> 1ste semester 3de jaar <br />
                   <strong>Prototyp:</strong><a target="_blank" href="https://www.figma.com/design/ejXDR3WYgAzO7DVMSlOgai/Project4.0(VoltSwap)?node-id=0-1"> VoltSwap</a>
                 </p>
               </div>
@@ -40,28 +40,23 @@ const FourPointO: NextPage = () => {
               <div className="project-explanation">
                 <h3>Opdracht</h3>
                 <p>
-                During our PHP Project course, my teammates Tymo Verhaegen, Mohamed Ajimi, and I worked on a PHP team project for our teacher, Dirk De Peuter. The project was designed to help our school plan small meetings between students and companies. Our team worked together to create a system that would make it easy for students to connect with potential employers.
-                </p>
+                  Ons team kreeg de opdracht om een applicatie te ontwikkelen die het wisselen van auto&#39;s op <strong>laadparkings beheert</strong>. Dit project werd uitgevoerd in samenwerking met <strong>Elision en Nfuse</strong> en had als doel een systeem te creëren dat <strong>real-time updates</strong> biedt over de beschikbaarheid van parkeerplaatsen en de laadstatus van voertuigen. De applicatie moest diverse functionaliteiten bevatten&#44; waaronder authenticatie&#44; een real-time <strong>chatfunctie</strong>&#44; IoT-integraties&#44; en gebruik maken van verschillende AWS-services. </p>
                 <h3>Benadering</h3>
                 <p>
-                As part of our project, I was appointed as the document lead, which meant that I was in charge of all the documents that needed to be filled out, as well as writing weekly stand-up meeting reports. I also took charge of the web hosting and created the pages that manage the files in the system and allow users to upload them. In addition, I designed the pages that manage user accounts and created the functionalities to make new and edit existing accounts.
+                Om deze opdracht aan te pakken&#44; verdeelden we de taken op basis van onze <strong>individuele vaardigheden</strong>. Jesse Gabriels nam de verantwoordelijkheid voor de IoT-componenten&#44; inclusief de camera&#44; Raspberry Pi&#44; en het maken van fotos van parkeerplaatsen. Wouter Selis werkte aan de AI en <strong>computer vision</strong>&#44; specifiek het detecteren van auto&#39;s en het bijwerken van de parkeerstatus. Siebe Camerman was verantwoordelijk voor de <strong>frontend-ontwikkeling</strong> en het opzetten van het autorisatiesysteem. Yannick Hendrickx beheerde de cloud-infrastructuur&#44; waaronder AWS Lambda&#44; API Gateway&#44; en S3 buckets. Ikzelf concentreerde me op de <strong>backend-ontwikkeling</strong> en implementeerde de <strong>chatfunctionaliteit</strong>&#44; evenals een beetje frontend-werk.
                 </p>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 padd-15">
-              <div className="project-explanation">
                 <h3>Eindresultaat</h3>
                 <p>
-                Working on this project helped me develop several key skills. Firstly, it taught me how to work effectively as part of a team. I learned to communicate effectively with my teammates, sharing ideas and solutions, and providing feedback when necessary. Secondly, I gained experience in project management, which involved managing the various aspects of the project, such as documentation, hosting, and user management. This allowed me to develop a comprehensive understanding of the project and ensured that we were able to complete it on time and within budget.
+                Het eindresultaat van ons project was een <strong>functionele applicatie</strong> die het beheer van auto&#39;s op laadparkings vereenvoudigt. De app biedt <strong>real-time updates</strong> van vrije parkeerplaatsen&#44; beheer van laadstations&#44; en een <strong>chatfunctie</strong> voor communicatie tussen gebruikers. Dankzij de inzet van ons team en de begeleiding van Brent Eerlingen&#44; Leen Dereu&#44; Arif Eredjeb en Eric Pauwels&#44; hebben we een <strong>waardevol product</strong> kunnen opleveren dat de potentie heeft om in een echte bedrijfsomgeving te worden gebruikt
                 </p>
                 <h3>Mijn inbreng</h3>
                 <p>
-                Overall, this project was a great learning experience for me. I gained valuable experience in project management, web development, and teamwork. It was a learning experience to work with my teammates, Tymo Verhaegen and Mohamed Ajimi, and our teacher, Dirk De Peuter. I am proud of the work I did and hope that the school might actually use our design.
-                 </p>
+                Mijn inbreng in dit project was voornamelijk gericht op de <strong>backend-ontwikkeling</strong>. Ik heb de logica geïmplementeerd die nodig is voor de <strong>chatfunctionaliteit</strong>&#44; waardoor gebruikers in real-time kunnen communiceren. Daarnaast heb ik ook bijgedragen aan de frontend-ontwikkeling door enkele pagina&#39;s te <strong>ontwerpen</strong> en de functionaliteiten voor het beheren van gebruikersaccounts te creëren.
+                </p>
                 <h3>Wat ik heb geleerd</h3>
                 <p>
-                This project taught me the importance of effective communication within a team, the significance of project management skills in meeting deadlines and staying within budget, and the technical skills required for web development and hosting. Additionally, it provided valuable experience in collaborating with teammates and handling responsibilities within a group project.
-                 </p>
+                Door aan dit project te werken&#44; heb ik veel waardevolle vaardigheden opgedaan. Ik leerde effectief te <strong>communiceren</strong> en samen te werken met mijn teamgenoten&#44; ideeën en <strong>oplossingen</strong> te delen en constructieve feedback te geven. Het beheren van verschillende aspecten van het project&#44; zoals documentatie&#44; hosting en gebruikersbeheer&#44; gaf me een beter inzicht in <strong>projectbeheer</strong>. Ik verbeterde mijn kennis van backend-ontwikkeling&#44; leerde werken metstrong  AWS-services&#44; en kreeg meer ervaring in het ontwerpen en implementeren van chatfunctionaliteiten..
+                </p>
               </div>
             </div>
           </div>

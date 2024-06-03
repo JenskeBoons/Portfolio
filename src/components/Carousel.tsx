@@ -18,7 +18,7 @@ const Carousel = ({ images }: { images: string[] }) => {
     slidesPerView={1}
     grabCursor={true}
     loop={true}
-    pagination={{ clickable: true }}
+    //pagination={{ clickable: true }}
     autoplay={{ delay: 5000 }}
     >
       {images.map((image, index) => (
@@ -26,7 +26,7 @@ const Carousel = ({ images }: { images: string[] }) => {
           <img
             src={image}
             alt={`carousel-${index}`}
-            style={{ objectFit: "cover", width: "100%", height: "100%" }}
+            style={{ objectFit: "cover", width: "100%", height: "100%", borderRadius: "10px" }}
           />
         </SwiperSlide>
       ))}

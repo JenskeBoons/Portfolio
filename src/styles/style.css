@@ -1322,7 +1322,17 @@ select {
   border-radius: 8px;
   width: 100%;
 }
+.project .project-details i{
+  font-size: larger;
+}
+.project .project-details i:hover{
+  color: #7030d6;
+  font-size: larger;
+}
 
+.project .project-details a:hover{
+  color: #7030d6;
+}
 /* Dark mode background color for section */
 [data-theme='dark'] .project .section {
   background-color: #151515;
@@ -1352,8 +1362,7 @@ select {
 /* Carousel container styles */
 .carousel-container {
   max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
+  
 }
 .video-container {
  width: 100%;
