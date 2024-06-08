@@ -49,7 +49,7 @@ const Internship: NextPage = () => {
                     <tr>
                       <td className="docs-item">Project plan:</td>
                       <td><a
-                        href="/assets/Jens_Boons_CV.pdf"
+                        href="/assets/Plan van aanpak Jens Boons .pdf"
                         target="_target"
                         className="docs-link"
                       >
@@ -59,7 +59,7 @@ const Internship: NextPage = () => {
                     <tr>
                       <td className="docs-item">Realizatie document:</td>
                       <td><a
-                        href="/assets/Jens_Boons_CV.pdf"
+                        href="/assets/Realisatie_Jens_Boons.pdf"
                         target="_target"
                         className="docs-link"
                       >
@@ -69,7 +69,7 @@ const Internship: NextPage = () => {
                     <tr>
                       <td className="docs-item">Reflectie document:</td>
                       <td className="docs-link"><a
-                        href="/assets/Jens_Boons_CV.pdf"
+                        href="/assets/Reflectie_Jens_Boons.pdf"
                         target="_target"
                         
                       >

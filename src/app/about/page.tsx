@@ -321,14 +321,14 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Fun Fair</h4>
                           <p className="timeline-text">
-                            
-                              <li>
-                                Plaatsen van evenement tenten
-                              </li>
-                              <li>
-                                Tafels en stoelen plaatsen
-                              </li>
-                            
+
+                            <li>
+                              Plaatsen van evenement tenten
+                            </li>
+                            <li>
+                              Tafels en stoelen plaatsen
+                            </li>
+
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -340,17 +340,17 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Boons Sound & Light (BSL)</h4>
                           <p className="timeline-text">
-                            
-                              <li>
-                                Plaatsen van licht en geluid
-                              </li>
-                              <li>
-                                Light design voor evenementen
-                              </li>
-                              <li>
-                                Onderhoud van elektronica
-                              </li>
-                            
+
+                            <li>
+                              Plaatsen van licht en geluid
+                            </li>
+                            <li>
+                              Light design voor evenementen
+                            </li>
+                            <li>
+                              Onderhoud van elektronica
+                            </li>
+
                           </p>
                         </div>
                         {/* Timeline Item end */}
