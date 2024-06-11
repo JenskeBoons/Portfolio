@@ -40,7 +40,7 @@ const Internship: NextPage = () => {
                   
                 </div>
                 <div className="intern-img">
-                  <img src="/imgs/PenArchLogo.PNG" alt="" />
+                  <img src="/imgs/PenArchLogo.png" alt="" />
                   <img src="/imgs/PenarchBanner.jpg" alt="" />
                 </div>  
                    
