@@ -14,7 +14,7 @@ const Mobile: NextPage = () => {
                     <div className="row">
                         <div className="col-12 col-md-6 padd-15">
                             <div className="video-container">
-                                <iframe width="50%" height="335" src="https://www.youtube.com/embed/qFsMMtJtNX4" ></iframe>
+                                <iframe width="50%" height="335" src="https://www.youtube.com/embed/qFsMMtJtNX4" allowFullScreen></iframe>
 
                             </div>
                         </div>
@@ -22,7 +22,7 @@ const Mobile: NextPage = () => {
                             <div className="project-details">
                                 <h3>Mobile Pokédex App</h3>
                                 <p>
-                                    <strong>Category:</strong> Full stack Flutter<br />
+                                    <strong>Categorie:</strong> Full stack Flutter<br />
                                     <strong>Project date:</strong> 1ste semester 3de jaar<br />
                                     <strong>Repo:</strong> <a target="_blank" href="https://github.com/itfactory-tm/MobDev-23-11"><i className="fa fa-github" /></a>
                                 </p>
