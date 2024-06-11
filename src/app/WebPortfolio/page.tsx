@@ -5,8 +5,10 @@ const Webportfolio : NextPage = () => {
   // Define images for this page
   const images = [
 
-    "/imgs/Four/2.PNG",
-    "/imgs/Four/3.PNG",
+    "/imgs/Webportfolio/Portfolio.PNG",
+    "/imgs/Webportfolio/portlogo.PNG",
+    "/imgs/Webportfolio/info.PNG",
+    "/imgs/Webportfolio/projects.PNG",
 
   ];
   return (

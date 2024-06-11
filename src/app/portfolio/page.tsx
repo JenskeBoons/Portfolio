@@ -124,7 +124,7 @@ const Portfolio: NextPage = () => {
             <div className="portfolio-item padd-15" data-category="wordpress">
               <div className="portfolio-item-inner shadow-dark">
                 <div className="portfolio-img">
-                  <img src="/imgs/portfolio/5.jpg" alt="portfolio" />
+                  <img src="/imgs/Webportfolio/Portfolio.PNG" alt="portfolio" />
                 </div>
                 <div className="portfolio-info">
                   <h4>Web Portfolio</h4>
