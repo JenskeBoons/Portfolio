@@ -15,7 +15,7 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    Hallo ik ben <span>Jens Boons</span>
+                    Hallo&#44; ik ben <span>Jens Boons</span>
                   </h2>
                   <p>
                     Momenteel studeer ik <strong>Toegepaste Informatica</strong> aan Thomas More Geel. Ik vind het leuk om iets over mezelf en mijn <strong>passie voor programmeren</strong> met jullie te delen.
@@ -183,7 +183,7 @@ const About: NextPage = () => {
                   </div>
                   <div className="softskill-item padd-15">
                     <h5>Teamwerk</h5>
-                    <p>Ik werk heel goed samen met andere collegs om tot een mooi en functioneel eindproduct te komen.</p>
+                    <p>Ik werk heel goed samen met andere colleg&apos;s om tot een mooi en functioneel eindproduct te komen.</p>
                   </div>
                   <div className="softskill-item padd-15">
                     <h5>Doorzettingsvermogen</h5>

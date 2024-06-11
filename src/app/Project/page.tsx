@@ -29,7 +29,7 @@ const Project: NextPage = () => {
               <div className="project-details">
                 <h3>PHP Project - PHP</h3>
                 <p>
-                  <strong>Category:</strong> Full stack Laravel PHP <br />
+                  <strong>Categorie:</strong> Full stack Laravel PHP <br />
                   <strong>Project datum:</strong> 2de semester 2de jaar <br />
                   <strong>Link:</strong><a target="_blank" href="https://ddpc.projectphp-503.com/"> PHP Project</a> <br />
                   <strong>Repo:</strong><a className="icon" target="_blank" href="https://github.com/itfactory-tm/2023-ProjectPHP-503"> <i className="fa fa-github" /></a>
@@ -46,7 +46,7 @@ const Project: NextPage = () => {
                 </p>
                 <h3>Benadering</h3>
                 <p>
-                  Als <strong>documentleider</strong> nam ik de verantwoordelijkheid voor het beheren van alle benodigde documenten en het schrijven van wekelijkse <strong>vergaderrapporten</strong>. Daarnaast was ik verantwoordelijk voor de <strong>webhosting</strong> en creëerde ik pagina&#39s voor het beheer van bestanden en gebruikersaccounts.
+                  Als <strong>documentleider</strong> nam ik de verantwoordelijkheid voor het beheren van alle benodigde documenten en het schrijven van wekelijkse <strong>vergaderrapporten</strong>. Daarnaast was ik verantwoordelijk voor de <strong>webhosting</strong> en creëerde ik pagina&apos;s voor het beheer van bestanden en gebruikersaccounts.
                 </p>
                 <h3>Eindresultaat</h3>
                 <p>

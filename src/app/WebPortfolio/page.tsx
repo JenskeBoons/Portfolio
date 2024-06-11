@@ -28,7 +28,7 @@ const Webportfolio : NextPage = () => {
               <div className="project-details">
                 <h3>Portfolio</h3>
                 <p>
-                  <strong>Category:</strong> Full stack Next Js<br />
+                  <strong>Categorie:</strong> Full stack Next Js<br />
                   <strong>Project date:</strong> 2de semester 3de jaar <br />
                   <strong>Repo:</strong><a target="_blank" href="https://github.com/JenskeBoons/Portfolio"> <i className="fa fa-github" /></a>
                 </p>

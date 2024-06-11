@@ -30,7 +30,7 @@ const Angular : NextPage = () => {
               <div className="project-details">
                 <h3>Angular Wanderlust rijs app</h3>
                 <p>
-                  <strong>Category:</strong> Angular Frondend met Java Backend<br />
+                  <strong>Categorie:</strong> Angular Frondend met Java Backend<br />
                   <strong>Project date:</strong> 1ste semester 3de year <br />
                   <strong>Repo:</strong><a target="_blank" href="https://github.com/itfactory-tm/Angular-23-team-03"> <i className="fa fa-github" /></a>
                 </p>

@@ -31,7 +31,7 @@ const RequirementsAnalysis : NextPage = () => {
               <div className="project-details">
                 <h3>Requirements Analysis </h3>
                 <p>
-                  <strong>Category:</strong>Requirements Analysis <br />
+                  <strong>Categorie:</strong> Requirements Analysis <br />
                   <strong>Project datum:</strong> 1ste semester 2de jaar <br />
                   <strong>Protype:</strong> Axure <br />
                 </p>
