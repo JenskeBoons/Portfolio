@@ -25,7 +25,7 @@ const Internship: NextPage = () => {
                   <h3>Opdracht:
                   </h3>
                   <h4> Verbetering van Data-Export Functionaliteit voor Grootschalige Grids
-                    Realisatie</h4>
+                    </h4>
                   <p>
                   Tijdens mijn stage bij <strong> Pension Architects</strong> heb ik gewerkt aan een project om de <strong> exportfunctionaliteit van grote datasets uit het interne beheersysteem te verbeteren</strong>. Dit systeem gebruikt &quot;grids&quot; - grote tabellen met informatie, maar veel klanten geven de voorkeur aan Excel vanwege de flexibiliteit. De huidige exporttoepassing kon grote datasets echter niet efficiënt verwerken, wat leidde tot crashes en inefficiënte workflows. Dit was problematisch voor klanten die regelmatig <strong>grote hoeveelheden </strong> data wilden exporteren voor verdere analyse in Excel.
                   </p> <br />
