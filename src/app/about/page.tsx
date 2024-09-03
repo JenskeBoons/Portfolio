@@ -112,12 +112,13 @@ const About: NextPage = () => {
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>KUBERNETES</h5>
+                      <h5>.NET</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
+                        <div className="progress-in" style={{ width: "55%" }} />
+                        <div className="skill-percent">55%</div>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
                 <div className="skills padd-15">
@@ -165,10 +166,10 @@ const About: NextPage = () => {
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>.NET</h5>
+                      <h5>KUBERNETES</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "55%" }} />
-                        <div className="skill-percent">55%</div>
+                        <div className="progress-in" style={{ width: "50%" }} />
+                        <div className="skill-percent">50%</div>
                       </div>
                     </div>
                   </div>
