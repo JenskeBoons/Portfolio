@@ -168,7 +168,7 @@ const About: NextPage = () => {
                       <h5>.NET</h5>
                       <div className="progress">
                         <div className="progress-in" style={{ width: "55%" }} />
-                        <div className="skill-percent">40%</div>
+                        <div className="skill-percent">55%</div>
                       </div>
                     </div>
                   </div>
