@@ -201,7 +201,7 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2021 - Heden
+                            <i className="fa fa-calendar" /> 2021 - 2024
                           </h6>
                           <h4 className="timeline-title">
                             Toegepaste Informatica
