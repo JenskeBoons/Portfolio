@@ -283,7 +283,6 @@ const About: NextPage = () => {
                           <h4 className="timeline-title">Stage Pensionarchitects</h4>
                           <p className="timeline-text">
                             Verbetering van Data-Export Functionaliteit voor Grootschalige Grids.
-                            <span>Vind meer info op de </span>
                           </p>
                         </div>
                         <div className="timeline-item">
