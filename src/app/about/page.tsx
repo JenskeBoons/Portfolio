@@ -18,7 +18,7 @@ const About: NextPage = () => {
                     Hallo&#44; ik ben <span>Jens Boons</span>
                   </h2>
                   <p>
-                    Momenteel ben ik <strong>afgestudeerd</strong> met bachelor <strong>Toegepaste Informatica</strong> aan Thomas More Geel. Ik vind het leuk om iets over mezelf en mijn <strong>passie voor programmeren</strong> met jullie te delen.
+                    Momenteel ben ik <strong>afgestudeerd</strong> met bachelor <strong>Application Development in Toegepaste Informatica</strong> aan Thomas More Geel. Ik vind het leuk om iets over mezelf en mijn <strong>passie voor programmeren</strong> met jullie te delen.
                   </p>
                   <p>Al sinds mijn jeugd ben ik <strong>gefascineerd door technologie</strong> en de manier waarop deze ons dagelijks leven beïnvloedt. Toen ik ouder werd, ontdekte ik mijn liefde voor podiumverlichting en programmering, en de eindeloze mogelijkheden die dit biedt.</p>
                   <p>
